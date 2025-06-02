@@ -20,8 +20,8 @@ https://gist.githubusercontent.com/maylogger/62cb9bd1fbe44ae822fd1f689ea6ebb6/ra
 
 ## 其他資源
 
-- 配色調色盤 https://ui.shadcn.com/colors，選定一行配色後，盡量都用同一行
-- https://www.htmldog.com 學習資源
+- 配色調色盤 https://ui.shadcn.com/colors ，選定一行配色後，盡量都用同一行
+- 學習資源 https://www.htmldog.com
 
 ## 美學觀念
 
