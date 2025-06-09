@@ -1,14 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh_TW">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>入門到入坑</title>
 </head>
 
-<body>
-    我的第一個網頁
+<body
+    class="bg-slate-700 text-slate-300 h-screen flex flex-col bg-[url('https://images.unsplash.com/photo-1542662565-7e4b66bae529')] bg-cover bg-center">
+    <!-- nav section -->
+    <nav class="bg-black/30 flex justify-between sm:items-center p-4 text-right">
+        <h2 class="text-lg font-bold">MAYLOGGER</h2>
+        <h3 class="hidden">Social Media</h3>
+        <ul class="sm:flex sm:gap-3 ">
+            <li><a href="https://youtube.com/@maylogger">Youtube</a></li>
+            <li>
+                <a href="https://www.threads.net/@maylogger_designer">Threads</a>
+            </li>
+            <li><a href="https://discord.gg/e5ck7ZF">Discord</a></li>
+        </ul>
+    </nav>
+    <!-- hero section -->
+    <main class="grow flex flex-col justify-center items-center">
+        <h1 class="text-3xl font-bold mb-3 sm:text-5xl">入門到入坑</h1>
+        <p>讓你做出自己的第一個網頁</p>
+        <div class="flex gap-4 mt-5 flex-col sm:flex-row">
+            <a class='px-6 py-2 border border-white rounded-full bg-white text-slate-700 font-bold'
+                href="https://twitch.tv/may_logger">開始學習</a>
+            <a class="px-6 py-2 border border-white rounded-full" href="https://twitch.tv/may_logger">了解更多</a>
+        </div>
+    </main>
 </body>
 
 </html>
